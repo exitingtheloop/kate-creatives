@@ -16,7 +16,7 @@ function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [showPackages, setShowPackages] = useState(false);
 
-  // Ensure we always start on home page on refresh/initial load
+  // test : Ensure we always start on home page on refresh/initial load
   useEffect(() => {
     // Reset all page states on component mount
     setShowPortfolio(false);
